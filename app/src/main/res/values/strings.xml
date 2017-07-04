@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MCQ Question Practice</string>
+    <string name="str_next">Next</string>
+    <string name="title_activity_result">Results!!!</string>
+    <string name="menu_settings">Setting</string>
+
+</resources>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ishtiak.mcqquestionpractice.MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical" >
+
+
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Large Text"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        <RadioGroup
+            android:id="@+id/radioGroup1"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <RadioButton
+                android:id="@+id/radio0"
+                android:textSize="18sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="RadioButton" />
+            <RadioButton
+                android:id="@+id/radio1"
+                android:textSize="18sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="RadioButton" />
+            <RadioButton
+                android:id="@+id/radio2"
+                android:textSize="18sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="RadioButton" />
+        </RadioGroup>
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:weightSum="2"
+    android:layout_marginTop="10dp"
+    android:layout_height="wrap_content">
+
+
+    <Button
+        android:id="@+id/btnPrev"
+        android:layout_width="35dp"
+        android:layout_height="60dp"
+        android:layout_weight="1"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/previous"/>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="35dp"
+        android:layout_marginLeft="40dp"
+        android:layout_height="60dp"
+        android:layout_weight="1"
+        android:background="@drawable/next"
+         />
+
+
+</LinearLayout>
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/logo" />
+
+
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>
